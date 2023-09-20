@@ -22,6 +22,14 @@ There will be lectures and demonstrations of the potential applications of NGS i
 - [Tamyo Mbisa](https://bbsti.hpru.nihr.ac.uk/our-team/dr-tamyo-mbisa), UK Health Security Agency, UK
 - [Emma Thomson](https://www.gla.ac.uk/schools/infectionimmunity/staff/emmathomson/), University of Glasgow, UK
 - [Sreenu Vattipally](https://www.gla.ac.uk/schools/infectionimmunity/staff/sreenuvattipally/),  University of Glasgow, UK
+- [Anna da Silva Filipe](https://www.gla.ac.uk/schools/infectionimmunity/staff/anadasilvafilipe/), UK Health Security Agency, UK
+- [Richard Orton](https://www.gla.ac.uk/schools/infectionimmunity/staff/richardorton/), University of Glasgow, UK
+- Sunando Roy, University College, London, UK
+- Charlotte Williams, University College, London, UK
+- Cristina Venturini, University College, London, UK
+- David Bibby, UK Health Security Agency, UK
+- Joshua Quick, University of Birmingham, UK
+- Samantha Lycett, University of Edinburgh, UK
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
