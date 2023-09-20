@@ -2,6 +2,8 @@
 
 # Genomics and Clinical Virology 2024: 18 to 23 February 2024
 
+Learn how to apply next-generation sequencing technologies to clinical virology
+
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
