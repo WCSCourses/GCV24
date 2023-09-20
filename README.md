@@ -16,6 +16,13 @@ Participants will gain practical experience in Linux/Unix command line usage, bi
 
 There will be lectures and demonstrations of the potential applications of NGS in clinical laboratories, limitations and pitfalls of the techniques and clinical case studies e.g. in infection control ​​and outbreak investigations including the ongoing SARS-CoV-2 pandemic.
 
+## Training Team
+
+- [Nick Loman](https://www.birmingham.ac.uk/staff/profiles/biosciences/loman-nick.aspx), University of Birmingham, UK
+- [Tamyo Mbisa](https://bbsti.hpru.nihr.ac.uk/our-team/dr-tamyo-mbisa), UK Health Security Agency, UK
+- [Emma Thomson](https://www.gla.ac.uk/schools/infectionimmunity/staff/emmathomson/), University of Glasgow, UK
+- [Sreenu Vattipally](https://www.gla.ac.uk/schools/infectionimmunity/staff/sreenuvattipally/),  University of Glasgow, UK
+
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
