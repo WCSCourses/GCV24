@@ -26,7 +26,7 @@ There will be lectures and demonstrations of the potential applications of NGS i
 - [Richard Orton](https://www.gla.ac.uk/schools/infectionimmunity/staff/richardorton/), University of Glasgow, UK
 - Sunando Roy, University College, London, UK
 - Charlotte Williams, University College, London, UK
-- Cristina Venturini, University College, London, UK
+- Sarah Buddle, University College, London, UK
 - David Bibby, UK Health Security Agency, UK
 - Joshua Quick, University of Birmingham, UK
 - Samantha Lycett, University of Edinburgh, UK
