@@ -161,13 +161,13 @@ Using custom code plot_mcc_tree_with_hpds, colour by the first discrete trait, w
 
 ```{r, tree_map_1, fig.height=6, fig.width=6}
 # plot tree on map
-plot_mcc_tree_with_hpds(tr, propIndex=1, xlim=c(-15,15), ylim=c(47,65))
+plot_mcc_tree_with_hpds(tr, propIndex=1, xlim=c(-15,15), ylim=c(47,65), legpos="topleft")
 ```
 
 Using custom code plot_mcc_tree_with_hpds, colour by the first discrete trait, which here is `r tr$propNames[2]`:
 
 ```{r, tree_map_2, fig.height=6, fig.width=6}
 # plot tree on map
-plot_mcc_tree_with_hpds(tr, propIndex=2, xlim=c(-15,15), ylim=c(47,65))
+plot_mcc_tree_with_hpds(tr, propIndex=2, xlim=c(-15,15), ylim=c(47,65), legpos="topleft")
 ```
 
