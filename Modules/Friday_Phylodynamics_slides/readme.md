@@ -1,9 +1,11 @@
 # Welcome To Friday Phylodynamics
 
 There are 3 sets of slides in pdf format:
-Phylo1-Phylodynamics_General_no_movie.pdf
-Phylo2-Time-Scale_and_Tempest.pdf
-Phylo3-Time-Scale_and_BEAST.pdf
+<ul>
+<li>Phylo1-Phylodynamics_General_no_movie.pdf
+<li>Phylo2-Time-Scale_and_Tempest.pdf
+<li>Phylo3-Time-Scale_and_BEAST.pdf
+</ul>
 
 The data you will need for this part is within the course_data folder
 
