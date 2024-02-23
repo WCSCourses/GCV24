@@ -413,7 +413,16 @@ treeName &lt;- &quot;cov_net_sim_mper2_120genomes_TN93G4_strict_skygrid_traits_2
 and highest posterior density interval information.</p>
 <pre class="r"><code># read in tree using custom function (could use ggtree also)
 tr &lt;- read_latlon_mcc_tr(treeName)
+
+# need to add the decimal dates [not always necessary but need to do this in this example]
+tr$decDates    &lt;- apply(as.matrix(apply(as.matrix(tr$tip.label), 1, getEl, ind=1, sep=&quot;\\|&quot;, fromEnd=TRUE)), 1,calcDecimalDate_from_yymmdd,sep=&quot;-&quot;)
+tr$youngestTip &lt;- max(tr$decDates)
+tr &lt;- nodeTimes(tr, youngestTip=tr$youngestTip)
+
+# now add the discrete traits to the tr object
 tr &lt;- addDiscreteTraits(tr)
+
+# now add the highest posterior density intervals
 tr &lt;- addLatLonHPD(tr)
 tr &lt;- fit_HPDs_to_standard(tr,ltol=0.005)
 tr$ntips &lt;- length(tr$tip.label)</code></pre>
@@ -433,8 +442,9 @@ tr$ntips &lt;- length(tr$tip.label)</code></pre>
 <pre><code>## $names
 ##  [1] &quot;edge&quot;         &quot;edge.length&quot;  &quot;Nnode&quot;        &quot;tip.label&quot;    &quot;tip.details&quot; 
 ##  [6] &quot;node.details&quot; &quot;details&quot;      &quot;nodeDists&quot;    &quot;rootHeight&quot;   &quot;nodeTimes&quot;   
-## [11] &quot;latlon&quot;       &quot;props&quot;        &quot;uprops&quot;       &quot;propNames&quot;    &quot;propProb&quot;    
-## [16] &quot;lat80&quot;        &quot;lon80&quot;        &quot;hpds&quot;         &quot;hpd_diffs&quot;    &quot;ntips&quot;       
+## [11] &quot;latlon&quot;       &quot;decDates&quot;     &quot;youngestTip&quot;  &quot;props&quot;        &quot;uprops&quot;      
+## [16] &quot;propNames&quot;    &quot;propProb&quot;     &quot;lat80&quot;        &quot;lon80&quot;        &quot;hpds&quot;        
+## [21] &quot;hpd_diffs&quot;    &quot;ntips&quot;       
 ## 
 ## $class
 ## [1] &quot;phylo&quot;

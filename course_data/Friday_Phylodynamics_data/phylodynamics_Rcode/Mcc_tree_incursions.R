@@ -48,6 +48,11 @@ treeName <- "cov_net_sim_mper2_120genomes_TN93G4_strict_skygrid_traits_2_mcc.tre
 
 # read in tree using custom function (could use ggtree also)
 tr <- read_latlon_mcc_tr(treeName)
+# need to add the decimal dates [not always necessary but need to do this in this example]
+tr$decDates	   <- apply(as.matrix(apply(as.matrix(tr$tip.label), 1, getEl, ind=1, sep="\\|", fromEnd=TRUE)),1,calcDecimalDate_from_yymmdd,sep="-")
+tr$youngestTip <- max(tr$decDates)
+tr <- nodeTimes(tr, youngestTip=tr$youngestTip)
+
 tr <- addDiscreteTraits(tr)
 tr <- addLatLonHPD(tr)
 tr <- fit_HPDs_to_standard(tr,ltol=0.005)
@@ -112,4 +117,5 @@ print(place_tbl)
 cols <- c("grey90",topo.colors(100))
 diag(place_tbl) <- -1
 levelplot(place_tbl,col.regions=cols, main="Number of Transitions from-to Place")
+
 
