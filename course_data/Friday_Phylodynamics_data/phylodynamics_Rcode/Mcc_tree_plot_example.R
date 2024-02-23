@@ -3,6 +3,9 @@
 # 20 Feb 2024
 
 #######################################################
+# STEP 0
+#######################################################
+
 # uncomment to install if required
 #install.packages("ape")
 #install.packages("maps")
@@ -23,7 +26,7 @@ library(mapproj)
 # needed to fit HPDs to ellipses
 library(conicfit)
 
-#######################################################
+
 # load Lycett_phylo utility code as separate functions
 source("getEl.R")
 source("calcDecimalDate.R")
@@ -31,6 +34,8 @@ source("read_MCC_tree.R")
 source("get_BEAST_cols.R")
 source("custom_map_movie.R")
 
+#######################################################
+# STEP 1
 #######################################################
 # define tree file name
 treeName <- "cov_net_sim_mper2_120genomes_TN93G4_strict_skygrid_traits_2_mcc.tre"
@@ -69,6 +74,8 @@ plot(tr$latlon[,2], tr$latlon[,1], xlab="Longitude", ylab="Latitude")
 title("Raw plot of spatial coordinates")
 
 #######################################################
+# STEP 2
+#######################################################
 
 # plot plain tree
 tr <- ladderize(tr)
@@ -83,6 +90,8 @@ plot_discrete_tree(tr, propIndex=propIndex, show.tip.label=FALSE)
 propIndex <- 2
 plot_discrete_tree(tr, propIndex=propIndex, show.tip.label=FALSE)
 
+#######################################################
+# STEP 3
 #######################################################
 
 # plot tree on map with discrete trait 1
