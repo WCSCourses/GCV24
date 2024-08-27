@@ -4,9 +4,8 @@
 
 ## 18–23 February 2024, Wellcome Genome Campus, UK
 
-[Wellcome Connecting Science Course Run Website Link](Coming soon) <br /> 
-[Course Time Table](Coming soon) <br /> 
-[Course Informatics Guide](Coming soon)
+[Wellcome Connecting Science Course Run Website](https://coursesandconferences.wellcomeconnectingscience.org/event/genomics-and-clinical-virology-2024-20240218/) <br /> 
+[Course Informatics Guide](https://github.com/WCSCourses/GCV24/blob/main/GCV_informatics_guide.pdf)
 
 ## Course Summary
 
