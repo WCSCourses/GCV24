@@ -39,7 +39,7 @@ This course will cover a wide range of cutting-edge viral WGS laboratory techniq
 - Validation and accreditation of viral WGS diagnostic service
 - Case studies in outbreak investigation and infection control
 
-Learning outcomes
+## Learning outcomes
 
 After attending the course, participants should be able to:
 
@@ -78,7 +78,7 @@ After attending the course, participants should be able to:
 - [Joshua Quick](), University of Birmingham, UK
 - [Samantha Lycett](), University of Edinburgh, UK
 
-## Wellcome Connecting Science Team
+**Wellcome Connecting Science Team**
 
 - [Alice Matimba](https://uk.linkedin.com/in/alice-matimba-8805177), Head of Training and Global Capacity
 - [Amy Pass](https://www.wellcomeconnectingscience.org/person/pass-amy/), Events Manager
